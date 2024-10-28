@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>La mejor página web</title>
+            <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <meta charset="UTF-8">
+    </header>
+
+    <body>
+        <div id="bloque1">
+        <h1>BEATS POPULARES</h1>
+    </div>
+    
+    <div id="bloque2">
+        <p>Presione un botón para emitir un sonido</p>
+        
+        <button onmousedown="sonido1.play()">TOP 1 ( ͡❛ ͜ʖ ͡❛)</button>
+        <script type="text/javascript">
+            var sonido1 = new Audio();
+            sonido1.src = "rick_roll.mp3";
+        </script>
+        <br>
+        <br>
+        <button onmousedown="sonido2.play()">TOP 2 ( ≖.≖)</button>
+        <script type="text/javascript">
+            var sonido2 = new Audio();
+            sonido2.src = "sax.mp3";
+        </script>
+        <br>
+        <br>
+        <button onmousedown="sonido3.play()">TOP 3 (╥﹏╥)</button>
+        <script type="text/javascript">
+            var sonido3 = new Audio();
+            sonido3.src = "sad.mp3";
+        </script>
+        <br>
+        <br>
+        <button onmousedown="sonido4.play()">TOP 4  (•◡•) /</button>
+        <script type="text/javascript">
+            var sonido4 = new Audio();
+            sonido4.src = "welive.mp3";
+        </script>
+        <br>
+        <br>
+        <button onmousedown="sonido5.play()">TOP 5 (◣◢)</button>
+        <script type="text/javascript">
+            var sonido5 = new Audio();
+            sonido5.src = "zelda.mp3";
+        </script>
+    </div>
+    </body>
+</html>
